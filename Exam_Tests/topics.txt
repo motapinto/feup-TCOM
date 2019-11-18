@@ -1,0 +1,38 @@
+turing machine
+traco computacional
+
+dfa: atencao a ver se todos os input tem ligacao
+dfa minimization: tabela, prova que duois automatos tem a mesma linguagem  
+nfa - dfa : ttabela nfa ->tabel dfa
+e-nfa - dfa: e-close, tabel e-nfa -.> tabela dfa
+construcao de caminhos !! (Rn,n ^o = E+ ..)
+eliminacao de estados
+leis algebricas exp regulares
+provar que nao e regular:: pumping lemma, closure proprites
+propriedades de fecho das exp reg: (intersection, union, diference, closure, homormofism, concatenation, reverse, complement)
+regulares expression - automato
+automato - regular expression: eliminacao de estados
+
+
+cgf: construcao
+cnf form
+propriedades de decisao
+cnf - pda
+pda vazio ou pda de estado de aceitacao
+provar que nao e cfg: pumping lemma ou propriedades de fecho
+propriedades de fecho das cfl: (intersection with rl, union, homormofism, concatenation, reverse, complement)
+ambiguidade cfl (COMO O ALGORTIMO CFG->PDA leva a um pda nao determinista se a cfg for amigua entao apra ver se e ambigua basta passar para pda e ver se este e determinista)
+
+
+Para o reverso, deve-se inverter a dire¸c˜ao de todas as setas de transi¸c˜oes,
+acrescentar um novo estado, que ser´a o estado inicial do novo au´omato,
+com transi¸c˜oes e para os estados de aceita¸c˜ao do aut´omato original (os
+quais devem deixar de ser estados de aceita¸c˜ao), e tornando o estado
+inicial do aut´omato original como ´unico estado de aceita¸c˜ao do novo
+aut´omato.
+
+No caso da uni˜ao, os estados de aceita¸c˜ao devem incluir os estados
+de aceita¸c˜ao tanto de um aut´omato como de outro; para a interse¸c˜ao, apenas
+aqueles que incluam estados de aceita¸c˜ao de ambos os aut´omatos originais;
+para a diferen¸ca, apenas os estados que sejam de aceita¸c˜ao para o aut´omato
+da primeira linguagem mas n˜ao para o da segunda linguagem.
